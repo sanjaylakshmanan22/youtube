@@ -1,0 +1,35 @@
+.left-border{
+    position: fixed;
+    background-color: rgb(253, 251, 249);
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    top: 80px;
+    z-index: 10;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-family: arial;
+    cursor: pointer;
+}
+.icon-box:hover{
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.home-img,.subscriptions-img,
+.explore-img,.originals-img,
+.youtube-music-img,.library-img{
+    display: flex;
+    flex-direction: column;
+    width: 22px;
+    height: 24px;
+    margin-bottom: 10px;
+}
